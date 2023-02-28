@@ -1,0 +1,141 @@
+@import "./styles/globle.scss";
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: $whiteColor;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+.ant-drawer {
+  top: 82px !important;
+  height: 100%;
+}
+.ant-drawer-body {
+  padding: 0 !important;
+}
+.ant-drawer-content-wrapper {
+  box-shadow: none !important;
+  height: 100% !important;
+}
+.ant-card {
+  background: #ffffff;
+  padding: 10px 10px 0;
+  border: 2px solid #d0cdcd;
+  box-shadow: 0px 6.04853px 6.04853px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.ant-card-cover {
+  background: #e9ecf5;
+  border: 1px solid #e5e9fd;
+  border-radius: 8px;
+  padding: 30px 30px 0;
+}
+.ant-card-meta-detail {
+  .ant-card-meta-title,
+  .ant-card-meta-description {
+    font-family: $primary-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    color: $blackColor;
+  }
+}
+.secondCard {
+  .ant-card-cover {
+    background: #e9ecf5;
+    border: 1px solid #e5e9fd;
+    border-radius: 8px;
+    padding: 30px 0px 30px 100px !important;
+  }
+}
+
+@media (min-width: 280px) {
+  .container {
+    max-width: 254px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) {
+  .container {
+    max-width: 294px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    max-width: 344px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 390px) {
+  .container {
+    max-width: 358px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 425px) {
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 705px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 834px) {
+  .container {
+    max-width: 765px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 954px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1154px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1254px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1354px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1354px;
+    margin: 0 auto;
+  }
+}
